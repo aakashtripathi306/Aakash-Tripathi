@@ -111,7 +111,9 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     ],
     description:
       "My personal portfolio website made using Nextjs, tailwindcss and framer motion.",
+
     sourceCodeHref: "https://github.com/Aakashtripathi2002/Aakash-Tripathi",
+
     liveWebsiteHref: siteMetadata.siteUrl,
   },
   {
