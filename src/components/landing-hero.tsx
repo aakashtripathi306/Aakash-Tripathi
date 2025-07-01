@@ -42,7 +42,7 @@ export default function LandingHero() {
                 Aakash Tripathi
               </h1>
               <span className="text-xl font-semibold text-zinc-900 dark:text-zinc-100 md:text-3xl">
-               Full Stack Developer
+                Full Stack Developer
               </span>
             </FadeUp>
             <FadeUp key="description" duration={0.6} delay={0.2}>
@@ -53,9 +53,8 @@ export default function LandingHero() {
                 <span className="font-semibold text-accent">NodeJs</span>,{" "}
                 <span className="font-semibold text-accent">ExpressJs</span>,{" "}
                 <span className="font-semibold text-accent">MYSQL</span>,{" "}
-                <span className="font-semibold text-accent">JAVA</span>
-                , and
-                an expert in{" "}
+                <span className="font-semibold text-accent">JAVA</span>, and an
+                expert in{" "}
                 <span className="font-semibold text-accent">JavaScript</span>,{" "}
                 <span className="font-semibold text-accent">HTML</span> and{" "}
                 <span className="font-semibold text-accent">CSS</span>

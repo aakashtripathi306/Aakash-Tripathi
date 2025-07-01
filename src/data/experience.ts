@@ -9,7 +9,8 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
     },
     date: "Jan 2025 - Present",
     location: "Nagpur, Maharashtra",
-    description: "Full stack development of a web application and Moble application.",
+    description:
+      "Full stack development of a web application and Moble application.",
   },
 
   {
@@ -22,5 +23,4 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
     location: "Nagpur, Maharashtra",
     description: " Full stack development of a web application.",
   },
-
 ];

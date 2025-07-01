@@ -23,5 +23,4 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
     description:
       "relevent courses included Data Structures and Algorithms, Web Design, Cloud Computing, and Database Management.",
   },
-  
 ];

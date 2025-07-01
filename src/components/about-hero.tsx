@@ -47,8 +47,8 @@ export default function AboutHero() {
               <Link href="/projects" className="underline underline-offset-4">
                 <span className="text-accent">projects</span>
               </Link>{" "}
-              showcasing my expertise in Reactjs, Nodejs, Javascript, Expressjs, MongoDB, Mysql
-              and web development.
+              showcasing my expertise in Reactjs, Nodejs, Javascript, Expressjs,
+              MongoDB, Mysql and web development.
             </p>
           </FadeUp>
           <FadeRight

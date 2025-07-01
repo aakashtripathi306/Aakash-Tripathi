@@ -7,8 +7,19 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     index: 0,
     title: "PMS",
     href: "/projects",
-    tags: ["NodeJs", "Reactjs", "Tailwindcss", "ExpressJs","Vite",
-      "React-router-dom", "MySQL", "Vercel","Render","Socket.io","webrtc"],
+    tags: [
+      "NodeJs",
+      "Reactjs",
+      "Tailwindcss",
+      "ExpressJs",
+      "Vite",
+      "React-router-dom",
+      "MySQL",
+      "Vercel",
+      "Render",
+      "Socket.io",
+      "webrtc",
+    ],
     image: {
       DARK: "/images/projects/pms-dashboard.webp",
       LIGHT: "/images/projects/pms-user.webp",
@@ -39,7 +50,16 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     index: 2,
     title: "Recipe-App",
     href: "/projects",
-    tags: ["Reactjs", "Vite", "Tailwindcss", "Nodejs","Express","Mysql","Vercel","GoogleAuth"],
+    tags: [
+      "Reactjs",
+      "Vite",
+      "Tailwindcss",
+      "Nodejs",
+      "Express",
+      "Mysql",
+      "Vercel",
+      "GoogleAuth",
+    ],
     image: {
       LIGHT: "/images/projects/Recipe-app.webp",
       DARK: "/images/projects/Recipe-app.webp",
@@ -57,7 +77,8 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     ],
     description:
       "A full-stack Project Management System built with React.js, Node.js, Express.js, MySQL, and Socket.io. Includes real-time task updates, drag-and-drop support, user assignments, video calls using WebRTC, and a responsive dashboard for both admin and users.",
-    sourceCodeHref: "https://github.com/Aakashtripathi2002/Project-Management-System",
+    sourceCodeHref:
+      "https://github.com/Aakashtripathi2002/Project-Management-System",
     liveWebsiteHref: "https://project-management-system.aakashprojects.tech",
   },
   {
@@ -75,9 +96,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "RECIPE APP",
     favicon: "/images/projects/logos/chef.ico",
-    imageUrl: [
-      "/images/projects/Recipe-app.webp",
-    ],
+    imageUrl: ["/images/projects/Recipe-app.webp"],
     description:
       "A dynamic recipe finder and manager built using React.js, Node.js, Express.js, and MySQL. Users can search, save, and categorize recipes. Integrated with Google Auth for user login and includes calorie and nutrition info for each recipe.",
     sourceCodeHref: "https://github.com/Aakashtripathi2002/Recipe-App",
