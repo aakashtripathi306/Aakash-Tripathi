@@ -25,7 +25,6 @@ export default function Projects() {
           siteName: siteMetadata.siteName,
           type: "website",
         }}
-       
         additionalMetaTags={[
           {
             property: "keywords",

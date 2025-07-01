@@ -35,7 +35,7 @@ export default function Footer() {
           >
             <GithubIcon className="text-accent transition-colors duration-150 hover:text-accent-foreground" />
           </a>
-         
+
           <a
             href={siteMetadata.linkedin}
             target="_blank"

@@ -32,8 +32,6 @@ export const LinkedinIcon = (props: IconType) => (
   </svg>
 );
 
-
-
 export const ArrowTopRight = (props: IconType) => (
   <svg
     stroke="currentColor"

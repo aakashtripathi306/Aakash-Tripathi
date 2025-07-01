@@ -31,8 +31,6 @@ There are some premade themes that I have made for this portfolio inside `theme-
 1. When creating custom theme the css variables only take hsl value seperated by space
 2. Theme color for Animated Logo have to be hard coded.
 
-
-
 ## ✉️ Setup Nodemailer
 
 ### Create Nodemailer User and Password

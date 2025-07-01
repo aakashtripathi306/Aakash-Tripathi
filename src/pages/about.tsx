@@ -27,7 +27,6 @@ export default function About() {
           siteName: siteMetadata.siteName,
           type: "website",
         }}
-     
         additionalMetaTags={[
           {
             property: "keywords",

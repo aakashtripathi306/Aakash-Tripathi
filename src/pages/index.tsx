@@ -30,7 +30,6 @@ export default function Home() {
           siteName: siteMetadata.siteName,
           type: "website",
         }}
-       
         additionalMetaTags={[
           {
             property: "keywords",
