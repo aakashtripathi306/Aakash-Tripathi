@@ -23,16 +23,14 @@ export default function Home() {
             "Dive into the world of web development with Aakash Tripathi. Discover a Software Developer with 2 years of expertise, showcasing cutting-edge projects and a commitment to crafting exceptional user interfaces.",
           images: [
             {
-              url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
+              url: `${siteMetadata.siteUrl}`,
               alt: "Aakash Tripathi - Portfolio Image",
             },
           ],
           siteName: siteMetadata.siteName,
           type: "website",
         }}
-        twitter={{
-          cardType: "summary_large_image",
-        }}
+       
         additionalMetaTags={[
           {
             property: "keywords",

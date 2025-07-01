@@ -20,16 +20,14 @@ export default function About() {
             "Dive into the story of Aakash Tripathi, a Software Developer. Uncover the experiences, skills, and passion that fuel a commitment to delivering exceptional web solutions.",
           images: [
             {
-              url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
+              url: `${siteMetadata.siteUrl}`,
               alt: "Aakash Tripathi - Portfolio Image",
             },
           ],
           siteName: siteMetadata.siteName,
           type: "website",
         }}
-        twitter={{
-          cardType: "summary_large_image",
-        }}
+     
         additionalMetaTags={[
           {
             property: "keywords",

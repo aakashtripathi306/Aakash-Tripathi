@@ -18,16 +18,14 @@ export default function Projects() {
             "Explore a showcase of projects crafted by Aakash Tripathi, a Software Developer. Witness the fusion of creativity and technology in web development.",
           images: [
             {
-              url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
+              url: `${siteMetadata.siteUrl}`,
               alt: "Aakash Tripathi - Portfolio Image",
             },
           ],
           siteName: siteMetadata.siteName,
           type: "website",
         }}
-        twitter={{
-          cardType: "summary_large_image",
-        }}
+       
         additionalMetaTags={[
           {
             property: "keywords",
