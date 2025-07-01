@@ -5,11 +5,9 @@ export const siteMetadata = {
   description: "Full Stack Developer",
   language: "en-us",
   theme: "light",
-
   siteName: "aakashtripathi.me",
   siteUrl: "https://aakashtripathi.me",
   siteRepo: "https://github.com/Aakashtripathi2002/Aakash-Tripathi",
-
   siteLogo: "/favicon.ico",
   image: "/static/home-page.png",
   socialBanner: "/static/home-page.png",
