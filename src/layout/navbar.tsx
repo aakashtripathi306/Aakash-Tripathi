@@ -13,7 +13,7 @@ import { classNames } from "@/utility/classNames";
 
 export type NavbarRoute = {
   title: string;
-  href: string;           // e.g. "/", "/projects", "/Aakash_Tripathi_Resume.pdf"
+  href: string; // e.g. "/", "/projects", "/Aakash_Tripathi_Resume.pdf"
 };
 
 export type NavbarRoutes = NavbarRoute[];
@@ -26,7 +26,7 @@ export default function Navbar({ routes }: NavbarProps) {
   const pathName = usePathname();
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const toggleModal = () => setIsModalOpen(prev => !prev);
+  const toggleModal = () => setIsModalOpen((prev) => !prev);
 
   return (
     <header className="sticky top-0 z-50 mt-2 px-6 py-8 sm:mt-8 sm:px-14 md:px-20">
@@ -46,8 +46,9 @@ export default function Navbar({ routes }: NavbarProps) {
         <nav className="hidden items-center gap-2 rounded-full px-2 py-2 shadow-md ring-1 ring-zinc-200 backdrop-blur-md dark:ring-accent/50 md:flex">
           <ul className="flex gap-2 text-sm font-medium">
             {routes.map((link, idx) => {
-              const isExternal = link.href.startsWith("http") || link.href.endsWith(".pdf");
-              const isActive   = !isExternal && pathName === link.href;
+              const isExternal =
+                link.href.startsWith("http") || link.href.endsWith(".pdf");
+              const isActive = !isExternal && pathName === link.href;
 
               return (
                 <li
@@ -60,7 +61,7 @@ export default function Navbar({ routes }: NavbarProps) {
                       href={link.href}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-foreground group relative mx-3 rounded-full px-3 py-2 transition-colors duration-200 hover:text-accent"
+                      className="group relative mx-3 rounded-full px-3 py-2 text-foreground transition-colors duration-200 hover:text-accent"
                     >
                       {link.title}
                     </a>
@@ -72,7 +73,7 @@ export default function Navbar({ routes }: NavbarProps) {
                         isActive
                           ? "font-semibold text-background dark:hover:text-foreground"
                           : "text-foreground",
-                        "group relative mx-3 rounded-full px-3 py-2 transition-colors duration-200"
+                        "group relative mx-3 rounded-full px-3 py-2 transition-colors duration-200",
                       )}
                     >
                       {isActive && (
@@ -80,7 +81,11 @@ export default function Navbar({ routes }: NavbarProps) {
                           layoutId="tab-pill"
                           animate={{
                             transition: {
-                              x: { type: "spring", stiffness: 300, damping: 30 },
+                              x: {
+                                type: "spring",
+                                stiffness: 300,
+                                damping: 30,
+                              },
                             },
                           }}
                           className="absolute inset-0 -z-10 rounded-full bg-accent group-hover:bg-accent/80"

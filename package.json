@@ -4,9 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-
     "build": "next build && npm run sitemap",
-
     "postbuild": "npm run sitemap",
     "start": "next start",
     "lint": "next lint",

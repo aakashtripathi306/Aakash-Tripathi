@@ -15,6 +15,5 @@ export const siteMetadata = {
   github: "https://github.com/Aakashtripathi2002",
   linkedin: "https://www.linkedin.com/in/aakash235",
   locale: "en-US",
-  googleSiteVerification: "SU7_MnCiU3m4yNIiHJUB5ze-yisrtdIjlaIskwEXpzM"
-
+  googleSiteVerification: "SU7_MnCiU3m4yNIiHJUB5ze-yisrtdIjlaIskwEXpzM",
 };
